@@ -1,0 +1,315 @@
+/*
+ Theme Name:   Park WP Child
+ Theme URI:    http://demo.cocobasic.com/park-wp
+ Description:  Park WP Child Theme
+ Author:       CocoBasic
+ Author URI:   http://cocobasic.com/
+ Tags: grid-layout, four-columns, custom-colors, featured-images, threaded-comments, translation-ready, theme-options
+ Template:     park-wp
+ Text Domain:  park-wp-child
+*/
+
+
+/*---------------------------------------------------------------------
+	general + typography
+---------------------------------------------------------------------*/
+
+/* body overrides */
+body {
+	font-family:Georgia, Cambria, serif;
+}
+
+/* headings */
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+	line-height:1.1;
+	text-align:center;
+}
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5,
+.page-content h6 {
+	line-height:1.1;
+}
+
+h1.entry-title {
+    font-size:36px;
+    margin-top:20px;
+}
+h1.entry-title .underline:after {
+	background:none;
+}
+
+h2 {
+	font-size:40px; /* larger */
+}
+
+/* links */
+body .entry-content a:not(.button),
+body .page-content a:not(.button) {
+	background:#fffaa3; /* yellow */
+	border-radius:2px;
+	box-shadow:4px 0 0 #fffaa3, -4px 0 0 #fffaa3;
+	margin:0 4px 0;
+	padding:4px 0 2px;
+	transition:background .1s linear, box-shadow .1s linear;
+}
+body .entry-content a:not(.button):hover,
+body .entry-content a:not(.button):focus,
+body .page-content a:not(.button):hover,
+body .page-content a:not(.button):focus {
+  background:#50e9b6;
+	box-shadow:4px 0 0 #50e9b6, -4px 0 0 #50e9b6; /* green */
+	color:#000;
+}
+a.button,
+input[type="submit"] {
+	font-family:'Rubik', Helvetica Neue, Arial, sans-serif !important;
+	font-weight:400 !important;
+	line-height:1;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+/* don't center column text on small screens */
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth {
+	text-align:left;
+}
+
+/* fineprint */
+p.fineprint {
+    font-size:13px;
+    font-style:italic;
+    line-height:19px;
+}
+
+/* blockquotes */
+blockquote {
+  border-color:#50e9b6;
+  font-size:inherit;
+  font-style:normal;
+  line-height:inherit;
+  margin-left:20px;
+  margin-right:20px;
+  max-width:100%;
+}
+
+blockquote cite {
+  font-style:italic;
+  margin-top:10px;
+}
+
+/*---------------------------------------------------------------------
+	header + navigation
+---------------------------------------------------------------------*/
+
+/* adjust the logo size */
+.header-logo img {
+	max-width:80%;
+	width:300px;
+}
+
+/* screen takover navigation */
+.menu-wraper {
+	background:#222;
+}
+.sm li {
+    min-width:0;
+}
+.sm-clean a {
+	font-family:'Rubik', Helvetica Neue, Arial, sans-serif;
+	font-weight:500;
+	padding:5px 10px !important;
+	text-transform:uppercase;
+}
+.sm-clean a.current,
+.sm-clean a:hover,
+.main-menu.sm-clean .sub-menu li a.current,
+.main-menu.sm-clean .sub-menu li a:hover {
+    color:#000000;
+    background:#50e9b6; /* green */
+    border-radius:0 !important;
+	font-weight:500;
+}
+.sm-clean a.current {
+	background:#fffaa3; /* yellow */
+}
+
+
+/*---------------------------------------------------------------------
+	portfolio items
+---------------------------------------------------------------------*/
+
+/* more space below the posts */
+.entry-content {
+	padding-bottom:30px;
+}
+
+/* make post content area wider */
+.content-570 {
+    width:700px;
+}
+
+/* tags */
+.tags-holder {
+	background:#fff;
+	display:block;
+	margin:0 auto;
+}
+.portfolio-category a {
+	color:#333;
+	font-family:'Rubik', Helvetica Neue, Arial, sans-serif;
+	text-transform:uppercase;
+}
+
+
+/*---------------------------------------------------------------------
+	other page components
+---------------------------------------------------------------------*/
+
+#experience .one_half {
+	margin-bottom:60px;
+}
+#experience .one_half p {
+	font-size:15px !important;
+	text-align:left !important;
+}
+
+/* collapse */
+.collapseomatic {
+	font-family:'Rubik', Helvetica Neue, Arial, sans-serif;
+	font-weight:500;
+	text-transform:uppercase;
+}
+.collapseomatic::before {
+	content:"+";
+	display:inline-block;
+	font-family:'Rubik', Helvetica Neue, Arial, sans-serif;
+	width:17px;
+}
+.collapseomatic.colomat-close.colomat-visited::before {
+	content:"–";
+}
+.collapseomatic:hover,
+.collapseomatic:focus {
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+/* next and previous links */
+.nav-previous a,
+.nav-next a {
+	font-family:'Rubik', Helvetica Neue, Arial, sans-serif;
+	font-weight:500;
+    font-size:25px;
+    line-height:1;
+}
+
+/* comparison */
+ul#comparison {
+  	list-style:none;
+  	margin:0;
+  	padding:0;
+  	position:relative;
+}
+#comparison li {
+	clear:both;
+  	padding:10px 0;
+  	position:relative;
+}
+#comparison li::after {
+  	background:#777;
+  	content:"";
+  	display:block;
+  	height:1px;
+  	position:absolute;
+  	top:29px;
+  	width:100%;
+}
+#comparison li span {
+  	background:#fff;
+  	position:relative;
+	top:-13px;
+  	width:80px;
+  	z-index:100;
+}
+#comparison li span.left {
+  	float:left;
+}
+#comparison li span.right {
+  	float:right;
+	text-align:right;
+}
+#comparison li span img {
+	max-width:65px;
+}
+#comparison .bar {
+  	background:#50e9b6;
+  	border-radius:5px;
+  	height:20px;
+  	position:absolute;
+  	right:50%;
+	top:20px;
+  	transition:right 1s ease-out;
+  	width:5px;
+  	z-index:100;
+}
+#comparison.animate-comparison #enviro .bar {
+  	right:70%;
+}
+#comparison.animate-comparison #weather .bar {
+  	right:60%;
+}
+#comparison.animate-comparison #pets .bar {
+  	right:32%;
+}
+#comparison.animate-comparison #cold-drink .bar {
+  	right:56%;
+}
+#comparison.animate-comparison #warm-drink .bar {
+  	right:45%;
+}
+#comparison.animate-comparison #read .bar {
+  	right:39%;
+}
+#comparison.animate-comparison #sport .bar {
+  	right:60%;
+}
+
+/*---------------------------------------------------------------------
+	Instagram feed
+---------------------------------------------------------------------*/
+#sb_instagram .sbi_photo {
+	background:none;
+	box-shadow:none;
+	margin:0;
+}
+
+#sb_instagram #sbi_load a {	
+	box-shadow:none;
+}
+
+
+/*---------------------------------------------------------------------
+	footer
+---------------------------------------------------------------------*/
+
+.footer {
+	background:#222;
+}
+
+/* sticky footer */
+html, body {
+	height:100%;
+	width:100%;
+}
+.site-wrapper {
+    min-height:100%;
+    display:grid;
+    grid-template-rows:auto 1fr auto;
+    grid-template-columns:100%;
+}

@@ -1,0 +1,115 @@
+[08-Apr-2018 09:03:20 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home6/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[08-Apr-2018 09:03:20 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home6/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[09-Apr-2018 02:21:07 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home6/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[09-Apr-2018 02:21:07 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home6/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[10-Apr-2018 17:15:45 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home6/iamalide/public_html/wp-content/themes/park-wp/archive.php on line 1
+[10-Apr-2018 17:15:45 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home6/iamalide/public_html/wp-content/themes/park-wp/archive.php on line 1
+[12-Apr-2018 15:21:25 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home6/iamalide/public_html/wp-content/themes/park-wp/archive.php on line 1
+[12-Apr-2018 15:21:25 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home6/iamalide/public_html/wp-content/themes/park-wp/archive.php on line 1
+[06-May-2018 12:05:01 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home6/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[06-Dec-2018 09:35:46 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home6/iamalide/public_html/wp-content/themes/park-wp/archive.php on line 1
+[07-Dec-2018 04:23:15 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home6/iamalide/public_html/wp-content/themes/park-wp/archive.php on line 1
+[18-Nov-2019 01:44:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[18-Nov-2019 06:45:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[13-Dec-2019 12:03:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[13-Dec-2019 13:57:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[15-Dec-2019 12:34:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[15-Dec-2019 14:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[12-Jan-2020 01:01:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[13-Jan-2020 18:30:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[15-Jan-2020 00:13:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[15-Jan-2020 20:10:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[17-Apr-2020 03:50:48 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[17-Apr-2020 05:51:22 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[24-Apr-2020 23:07:12 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[25-Apr-2020 01:12:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[25-Nov-2021 13:48:28 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/archive.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/archive.php on line 1
+[25-Nov-2021 13:48:28 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home4/iamalide/public_html/wp-content/themes/park-wp/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/header.php on line 2
+[25-Nov-2021 13:48:28 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/index.php on line 1
+[25-Nov-2021 13:48:28 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[28-Nov-2021 13:22:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home4/iamalide/public_html/wp-content/themes/park-wp/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/header.php on line 2
+[28-Nov-2021 13:22:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/index.php on line 1
+[28-Nov-2021 13:22:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[28-Nov-2021 13:22:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/archive.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/archive.php on line 1
+[15-Dec-2021 05:01:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/archive.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/archive.php on line 1
+[15-Dec-2021 05:01:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home4/iamalide/public_html/wp-content/themes/park-wp/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/header.php on line 2
+[15-Dec-2021 05:01:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/404.php on line 1
+[15-Dec-2021 05:01:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/iamalide/public_html/wp-content/themes/park-wp/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/iamalide/public_html/wp-content/themes/park-wp/index.php on line 1
