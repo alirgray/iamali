@@ -1,0 +1,164 @@
+/*
+Theme Name: Quotes
+Theme URL: https://www.iamalidesign.com
+Description: Twenty Seventeen Child Theme
+Author: Ali Gray
+Author URL: https://www.iamalidesign.com
+Template: twentyseventeen
+Version: 1.0.0
+Text Domain: quotes
+*/
+
+
+/*---------------------------------------------
+  general
+---------------------------------------------*/
+#primary {
+  max-width:1000px !important;
+}
+
+.clear {
+  clear:both;
+  content:"";
+  display:block;
+}
+
+.col {
+  float:left;
+  width:50%;
+}
+
+.page-header {
+	width:25% !important;
+}
+
+#primary article {
+	float:right;
+	padding-bottom:30px !important;
+	width:73% !important;
+}
+
+
+/*---------------------------------------------
+  quote styles
+---------------------------------------------*/
+blockquote {
+	font-size:1em;
+	font-style:normal;
+}
+
+blockquote cite {
+	text-align:right;
+}
+
+blockquote cite em:not(:empty)::before {
+	content:",";
+	margin-left:-2px;
+	padding-right:5px;
+}
+
+.rating {
+	float:right;
+	font-weight:bold;
+	margin:0;
+	padding-left:10px;
+}
+.rating.one::before {
+	content:"*";
+}
+.rating.two::before {
+	content:"* *";
+}
+.rating.three::before {
+	content:"* * *";
+}
+.rating.four::before {
+	content:"* * * *";
+}
+.rating.five::before {
+	content:"* * * * *";
+}
+
+ul.post-categories {
+	float:right;
+	font-size:0.8em;
+}
+ul.post-categories li {
+	display:inline-block;
+	list-style:none;
+	padding-left:5px;
+}
+ul.post-categories li:not(:last-of-type)::after {
+	color:#888;
+	content:", ";
+}
+ul.post-categories li a {
+	color:#888;
+}
+ul.post-categories li a:hover {
+	text-decoration:underline;
+}
+
+.page-title span {
+	display:block;
+}
+
+
+/*---------------------------------------------
+  footer
+---------------------------------------------*/
+footer {
+	padding-bottom:50px;
+}
+
+.wp-block-tag-cloud {
+	margin:0;
+}
+.wp-block-tag-cloud a {
+	box-shadow:none !important;
+	color:#888;
+	font-size:13px !important;
+}
+
+.footer-widget-2 h2 {
+	color:#333;
+	font-size:14px;
+	font-weight:700;
+	margin:0;
+}
+
+.widget {
+	padding-bottom:0;
+}
+
+.site-footer .wrap {
+  padding-bottom:0;
+  padding-top:0;
+}
+.site-footer .widget-area {
+  padding-bottom:0;
+}
+.site-footer .right {
+  margin-top:-20px;
+  text-align:right;
+}
+
+
+/*---------------------------------------------
+  search form
+---------------------------------------------*/
+.search-form {
+  float:right;
+  width:63%;
+}
+.search-form input {
+  padding:7px 10px;
+}
+.search-form .search-submit {
+  padding:5px 10px;
+  top:10px;
+}
+.search-form .search-submit .icon {
+  height:18px;
+  width:18px;
+}

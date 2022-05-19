@@ -1,0 +1,1380 @@
+/*
+ Theme Name:   Chosen Child
+ Theme URI:    https://www.competethemes.com/chosen/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Ali Gray
+ Author URI:   http://ww.iamalidesign.com
+ Template:     chosen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, blog, right-sidebar, responsive-layout
+ Text Domain:  chosen-child
+*/
+
+
+
+
+
+/* ----------------------------------------------------------------
+    global
+---------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+body {
+  background:url('https://www.iamalidesign.com/explore/wp-content/uploads/2017/03/topo-pattern.png') repeat top left #fff;
+  background-position:fixed;
+  font-family:Georgia, serif;
+}
+
+.visually-hide {
+  height:1px;
+  left:-9999px;
+  overflow:hidden;
+  position:absolute;
+}
+
+.clear {clear:both;}
+
+.clearfix::before,
+
+.clearfix::after {
+  clear:both;
+  content:"";
+  display:block;
+}
+
+.clearfix {margin-bottom:25px;}
+
+
+
+/* headings */
+
+h1, h2, h3, h4, h5, h6, .site-title {
+
+  font-family:'Lato', Helvetica, Arial, sans-serif;
+
+  font-weight:300;
+
+  text-transform:uppercase;
+
+}
+
+h3 {
+
+  font-size:30px;
+
+  margin-top:50px;
+
+}
+
+h4 {
+
+  font-size:24px;
+
+  margin-top:50px;
+
+}
+
+h3 + h4 {margin-top:30px;}
+
+
+
+p, ul, ol {font-size:16.5px;}
+
+
+
+/* other things that should be heading font */
+
+.tagline,
+
+#menu-primary-items a,
+
+.post-date,
+
+.more-link,
+
+.comments-link,
+
+#site-footer {
+
+  font-family:'Lato', Helvetica, Arial, sans-serif;
+
+  font-weight:300;
+
+  text-transform:uppercase;
+
+}
+
+
+
+.comments-link,
+
+.post-date {
+
+  font-weight:400;
+
+}
+
+
+
+p a,
+
+p a:link,
+
+p a:visited {
+
+  color:#62a299;
+
+  text-decoration:underline;
+
+}
+
+
+
+p a:hover,
+
+p a:focus {
+
+  color:#555;
+
+}
+
+
+
+/* images */
+
+.percent-25 {width:25%;}
+
+.percent-40 {width:40%;}
+
+.percent-50 {width:50%;}
+
+.percent-60 {width:60%;}
+
+.percent-70 {width:70%;}
+
+.percent-100, .size-full {width:100%;}
+
+
+
+.alignright {
+
+  display:block;
+
+  float:right;
+
+  margin:10px 0 10px 20px;
+
+}
+
+.alignright p {
+
+  font-size:15px;
+
+  font-style:italic;
+
+  margin-top:5px;
+
+}
+
+.alignnone {margin:0;}
+
+p:empty {display:none;}
+
+
+
+/* columns */
+
+div.col,
+
+div.col2 {
+
+  margin-bottom:0.9375em;
+
+  width:48%;
+
+}
+
+
+
+div.col {float: left;}
+
+div.col2 {float: right;}
+
+
+
+div.col .wp-caption-text,
+
+div.col2 .wp-caption-text {
+
+  margin-bottom:0;
+
+}
+
+
+
+.clearfix div.col,
+
+.clearfix div.col2 {
+
+  margin-bottom:0;
+
+}
+
+
+
+/* medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+  .percent-25,
+
+  .percent-40,
+
+  .percent-60,
+
+  .percent-70 {
+
+    max-width:50%;
+
+    width:auto;
+
+  }
+
+}
+
+
+
+/* small screens */
+
+@media only screen and (max-width: 40em) {
+
+  .percent-25, .percent-40, .percent-50, .percent-70, .percent-70 {width:auto;}
+
+  .alignright {
+
+    float:none;
+
+    margin:20px auto 0;
+
+  }
+
+  div.col,
+
+  div.col2 {
+
+    float:none !important;
+
+    width:100% !important;
+
+  }
+
+  div.col {margin-bottom:0 !important;}
+
+}
+
+
+
+
+
+/* ----------------------------------------------------------------
+
+    header
+
+---------------------------------------------------------------- */
+
+
+
+/*----- logo and site title -----*/
+
+
+
+.title-container {
+
+  margin:3.5em 0;
+
+}
+
+
+
+/* logo and title container */
+
+.site-title {
+
+  display:block;
+
+  font-size:3.4em;
+
+  height:180px;
+
+  margin-left:auto;
+
+  margin-right:auto;
+
+  width:650px;
+
+}
+
+.site-title::after {
+
+  clear:both;
+
+  content:"";
+
+  display:block;
+
+}
+
+
+
+/* logo */
+
+#site-title .logo {
+
+  float:left;
+
+  height:auto;
+
+  margin-right:30px;
+
+  width:110px;
+
+}
+
+
+
+/* title */
+
+#site-title h1 {
+
+  color:#333;
+
+  float:left;
+
+  font-size:52px;
+
+  height:auto;
+
+  margin:0;
+
+  overflow:visible;
+
+  position:relative;
+
+  text-align:left;
+
+  top:30px;
+
+  width:auto;
+
+}
+
+
+
+/* tagline below site title */
+
+.tagline {
+
+  color:#666;
+
+  display:block;
+
+  float:none;
+
+  font-size:18px;
+
+  position:static;
+
+}
+
+
+
+/* global navigation */
+
+#menu-primary-items a {
+
+  font-size:1em;
+
+}
+
+#menu-primary-items .extra-link a {color:#999;}
+
+
+
+/* small screen header styles */
+
+@media only screen and (max-width:700px) {
+
+  .site-title {
+
+    height:auto;
+
+    width:90%;
+
+  }
+
+
+
+  #site-title .logo,
+
+  #site-title h1,
+
+  .tagline {
+
+    display:block;
+
+    float:none;
+
+    text-align:center;
+
+  }
+
+
+
+  #site-title .logo {margin:0 auto;}
+
+  #site-title h1 {font-size:32px;}
+
+  .tagline {font-size:15px;}
+
+}
+
+
+
+
+
+/* ----------------------------------------------------------------
+
+    posts
+
+---------------------------------------------------------------- */
+
+
+
+/* post title */
+
+.post-title {
+
+  line-height:1 !important;
+
+  margin-bottom:20px;
+
+}
+
+
+
+/* post content, not including title or publish date */
+
+.post-content {
+
+  font-size:110%;
+
+}
+
+
+
+/* make post content wider */
+
+.singular .post-content,
+
+.singular .post-meta,
+
+.error-404 .post-content,
+
+.error-404 .post-meta {
+
+  margin:0 auto;
+
+  max-width:900px;
+
+  padding:0 20px;
+
+}
+
+
+
+/* publish date */
+
+.post-date {
+
+  font-size:120%;
+
+  letter-spacing:0.5px;
+
+}
+
+
+
+.wp-caption-text,
+
+.gallery-caption {
+
+  font-size:0.82em;
+
+}
+
+
+
+/* read more and comment buttons */
+
+.more-link,
+
+.comments-link {
+
+  font-size:0.8em;
+
+  letter-spacing:1px;
+
+}
+
+
+
+/* post categories */
+
+.post-categories,
+
+.post-tags {
+
+  font-size:0.9em;
+
+}
+
+
+
+/* make post tags look like links, like categories do */
+
+.post-tags a {
+
+  color:#62a299;
+
+}
+
+.post-tags a:hover,
+
+.post-tags a:focus{
+
+  color:#555;
+
+}
+
+
+
+/* previous and next post labels */
+
+.further-reading span {
+
+  font-size:0.8em;
+
+}
+
+
+
+/* make next and previous posts look like links */
+
+.further-reading a {
+
+  color:#62a299;
+
+  text-decoration:underline;
+
+}
+
+.further-reading a:hover,
+
+.further-reading a:focus{
+
+  color:#555;
+
+}
+
+
+
+/* hide "be first to comment" and comment count */
+
+.comments-number {
+
+  display:none;
+
+}
+
+
+
+/* make comment textbox label bigger */
+
+.comment-form-comment label {
+
+  font-size:0.9em;
+
+  letter-spacing:1px;
+
+  text-transform:uppercase;
+
+}
+
+
+
+/* form submit buttons, make look like read more buttons */
+
+input[type="submit"] {
+
+  font-size:0.75em;
+
+  letter-spacing:1px;
+
+  text-transform:uppercase;
+
+}
+
+
+
+/* small screens post styles */
+
+@media only screen and (max-width:520px) {
+
+  .more-link-wrapper,
+
+  .comments-link {
+
+    display:block;
+
+  }
+
+  .more-link-wrapper {margin-bottom:25px;}
+
+  .more-link {margin-right:0;}
+
+  .post-categories span,
+
+  .post-tags span {
+
+    display:block;
+
+    margin:0 0 5px;
+
+  }
+
+}
+
+
+
+@media only screen and (max-width:900px) {
+
+  .comments {padding:0 7%;}
+
+}
+
+
+
+.site-footer {margin-top:-6px;}
+
+
+
+/* instagram feed */
+
+#main + div h2 {
+
+  margin:20px 0 10px;
+
+  text-align:center;
+
+}
+
+.instagram-pics {margin:0 -4.6%;}
+
+.instagram-pics li {
+
+  display:inline-block;
+
+  list-style:none;
+
+  width:20%;
+
+}
+
+.instagram-pics + p.clear {display:none;}
+
+
+
+@media only screen and (max-width:470px) {
+
+  .instagram-pics li {
+
+    margin-top:-7px;
+
+    width:50%;
+
+  }
+
+  .instagram-pics li:nth-of-type(5) {display:none;}
+
+  #main + div h2 {margin-bottom:20px;}
+
+}
+
+
+
+/* sharing links */
+
+div.sharedaddy h3.sd-title {
+
+  color:#666;
+
+  font-family:'Lato', Helvetica, Arial, sans-serif;
+
+  font-size:14px !important;
+
+  font-weight:normal !important;
+
+  text-transform:none;
+
+}
+
+
+
+/* contact form */
+
+.contact-form {margin-top:60px;}
+
+.contact-form label {font-size:15.5px;}
+
+.contact-form textarea {width:100% !important;}
+
+.contact-form label span {
+
+  height:1px;
+
+  left:-9999px;
+
+  overflow:hidden;
+
+  position:absolute;
+
+}
+
+
+
+/* archive list */
+
+.sya_categories {
+
+  color:#888;
+
+  font-size:14px;
+
+  text-transform:lowercase;
+
+  padding-left:2px;
+
+}
+
+
+
+/* block grid - from foundation */
+
+[class*="block-grid-"] {
+
+  display: block;
+
+  padding: 0;
+
+  margin: 0 -0.625rem; }
+
+  [class*="block-grid-"]:before, [class*="block-grid-"]:after {
+
+    content: " ";
+
+    display: table; }
+
+  [class*="block-grid-"]:after {
+
+    clear: both; }
+
+  [class*="block-grid-"] > li {
+
+    display: block;
+
+    height: auto;
+
+    float: left;
+
+    padding: 0 0.625rem 1.25rem; }
+
+
+
+@media only screen {
+
+  .small-block-grid-1 > li {
+
+    width: 100%;
+
+    list-style: none; }
+
+    .small-block-grid-1 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-1 > li:nth-of-type(1n+1) {
+
+      clear: both; }
+
+
+
+  .small-block-grid-2 > li {
+
+    width: 50%;
+
+    list-style: none; }
+
+    .small-block-grid-2 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-2 > li:nth-of-type(2n+1) {
+
+      clear: both; }
+
+
+
+  .small-block-grid-3 > li {
+
+    width: 33.33333%;
+
+    list-style: none; }
+
+    .small-block-grid-3 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-3 > li:nth-of-type(3n+1) {
+
+      clear: both; }
+
+
+
+  .small-block-grid-4 > li {
+
+    width: 25%;
+
+    list-style: none; }
+
+    .small-block-grid-4 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-4 > li:nth-of-type(4n+1) {
+
+      clear: both; }
+
+
+
+  .small-block-grid-5 > li {
+
+    width: 20%;
+
+    list-style: none; }
+
+    .small-block-grid-5 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-5 > li:nth-of-type(5n+1) {
+
+      clear: both; }
+
+
+
+  .small-block-grid-6 > li {
+
+    width: 16.66667%;
+
+    list-style: none; }
+
+    .small-block-grid-6 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-6 > li:nth-of-type(6n+1) {
+
+      clear: both; }
+
+
+
+  .small-block-grid-7 > li {
+
+    width: 14.28571%;
+
+    list-style: none; }
+
+    .small-block-grid-7 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-7 > li:nth-of-type(7n+1) {
+
+      clear: both; }
+
+
+
+  .small-block-grid-8 > li {
+
+    width: 12.5%;
+
+    list-style: none; }
+
+    .small-block-grid-8 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-8 > li:nth-of-type(8n+1) {
+
+      clear: both; }
+
+
+
+  .small-block-grid-9 > li {
+
+    width: 11.11111%;
+
+    list-style: none; }
+
+    .small-block-grid-9 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-9 > li:nth-of-type(9n+1) {
+
+      clear: both; }
+
+
+
+  .small-block-grid-10 > li {
+
+    width: 10%;
+
+    list-style: none; }
+
+    .small-block-grid-10 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-10 > li:nth-of-type(10n+1) {
+
+      clear: both; }
+
+
+
+  .small-block-grid-11 > li {
+
+    width: 9.09091%;
+
+    list-style: none; }
+
+    .small-block-grid-11 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-11 > li:nth-of-type(11n+1) {
+
+      clear: both; }
+
+
+
+  .small-block-grid-12 > li {
+
+    width: 8.33333%;
+
+    list-style: none; }
+
+    .small-block-grid-12 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .small-block-grid-12 > li:nth-of-type(12n+1) {
+
+      clear: both; } }
+
+@media only screen and (min-width: 40.063em) {
+
+  .medium-block-grid-1 > li {
+
+    width: 100%;
+
+    list-style: none; }
+
+    .medium-block-grid-1 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-1 > li:nth-of-type(1n+1) {
+
+      clear: both; }
+
+
+
+  .medium-block-grid-2 > li {
+
+    width: 50%;
+
+    list-style: none; }
+
+    .medium-block-grid-2 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-2 > li:nth-of-type(2n+1) {
+
+      clear: both; }
+
+
+
+  .medium-block-grid-3 > li {
+
+    width: 33.33333%;
+
+    list-style: none; }
+
+    .medium-block-grid-3 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-3 > li:nth-of-type(3n+1) {
+
+      clear: both; }
+
+
+
+  .medium-block-grid-4 > li {
+
+    width: 25%;
+
+    list-style: none; }
+
+    .medium-block-grid-4 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-4 > li:nth-of-type(4n+1) {
+
+      clear: both; }
+
+
+
+  .medium-block-grid-5 > li {
+
+    width: 20%;
+
+    list-style: none; }
+
+    .medium-block-grid-5 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-5 > li:nth-of-type(5n+1) {
+
+      clear: both; }
+
+
+
+  .medium-block-grid-6 > li {
+
+    width: 16.66667%;
+
+    list-style: none; }
+
+    .medium-block-grid-6 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-6 > li:nth-of-type(6n+1) {
+
+      clear: both; }
+
+
+
+  .medium-block-grid-7 > li {
+
+    width: 14.28571%;
+
+    list-style: none; }
+
+    .medium-block-grid-7 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-7 > li:nth-of-type(7n+1) {
+
+      clear: both; }
+
+
+
+  .medium-block-grid-8 > li {
+
+    width: 12.5%;
+
+    list-style: none; }
+
+    .medium-block-grid-8 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-8 > li:nth-of-type(8n+1) {
+
+      clear: both; }
+
+
+
+  .medium-block-grid-9 > li {
+
+    width: 11.11111%;
+
+    list-style: none; }
+
+    .medium-block-grid-9 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-9 > li:nth-of-type(9n+1) {
+
+      clear: both; }
+
+
+
+  .medium-block-grid-10 > li {
+
+    width: 10%;
+
+    list-style: none; }
+
+    .medium-block-grid-10 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-10 > li:nth-of-type(10n+1) {
+
+      clear: both; }
+
+
+
+  .medium-block-grid-11 > li {
+
+    width: 9.09091%;
+
+    list-style: none; }
+
+    .medium-block-grid-11 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-11 > li:nth-of-type(11n+1) {
+
+      clear: both; }
+
+
+
+  .medium-block-grid-12 > li {
+
+    width: 8.33333%;
+
+    list-style: none; }
+
+    .medium-block-grid-12 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .medium-block-grid-12 > li:nth-of-type(12n+1) {
+
+      clear: both; } }
+
+@media only screen and (min-width: 64.063em) {
+
+  .large-block-grid-1 > li {
+
+    width: 100%;
+
+    list-style: none; }
+
+    .large-block-grid-1 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-1 > li:nth-of-type(1n+1) {
+
+      clear: both; }
+
+
+
+  .large-block-grid-2 > li {
+
+    width: 50%;
+
+    list-style: none; }
+
+    .large-block-grid-2 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-2 > li:nth-of-type(2n+1) {
+
+      clear: both; }
+
+
+
+  .large-block-grid-3 > li {
+
+    width: 33.33333%;
+
+    list-style: none; }
+
+    .large-block-grid-3 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-3 > li:nth-of-type(3n+1) {
+
+      clear: both; }
+
+
+
+  .large-block-grid-4 > li {
+
+    width: 25%;
+
+    list-style: none; }
+
+    .large-block-grid-4 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-4 > li:nth-of-type(4n+1) {
+
+      clear: both; }
+
+
+
+  .large-block-grid-5 > li {
+
+    width: 20%;
+
+    list-style: none; }
+
+    .large-block-grid-5 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-5 > li:nth-of-type(5n+1) {
+
+      clear: both; }
+
+
+
+  .large-block-grid-6 > li {
+
+    width: 16.66667%;
+
+    list-style: none; }
+
+    .large-block-grid-6 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-6 > li:nth-of-type(6n+1) {
+
+      clear: both; }
+
+
+
+  .large-block-grid-7 > li {
+
+    width: 14.28571%;
+
+    list-style: none; }
+
+    .large-block-grid-7 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-7 > li:nth-of-type(7n+1) {
+
+      clear: both; }
+
+
+
+  .large-block-grid-8 > li {
+
+    width: 12.5%;
+
+    list-style: none; }
+
+    .large-block-grid-8 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-8 > li:nth-of-type(8n+1) {
+
+      clear: both; }
+
+
+
+  .large-block-grid-9 > li {
+
+    width: 11.11111%;
+
+    list-style: none; }
+
+    .large-block-grid-9 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-9 > li:nth-of-type(9n+1) {
+
+      clear: both; }
+
+
+
+  .large-block-grid-10 > li {
+
+    width: 10%;
+
+    list-style: none; }
+
+    .large-block-grid-10 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-10 > li:nth-of-type(10n+1) {
+
+      clear: both; }
+
+
+
+  .large-block-grid-11 > li {
+
+    width: 9.09091%;
+
+    list-style: none; }
+
+    .large-block-grid-11 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-11 > li:nth-of-type(11n+1) {
+
+      clear: both; }
+
+
+
+  .large-block-grid-12 > li {
+
+    width: 8.33333%;
+
+    list-style: none; }
+
+    .large-block-grid-12 > li:nth-of-type(1n) {
+
+      clear: none; }
+
+    .large-block-grid-12 > li:nth-of-type(12n+1) {
+
+      clear: both; } }

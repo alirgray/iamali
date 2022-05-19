@@ -1,0 +1,80 @@
+/*
+Theme Name: Brewski
+Theme URL: https://www.iamalidesign.com
+Description: Twenty Seventeen Child Theme
+Author: Ali Gray
+Author URL: https://www.iamalidesign.com
+Template: twentyseventeen
+Version: 1.0.0
+Text Domain: brewski
+*/
+
+
+/*---------------------------------------------
+  general
+---------------------------------------------*/
+#primary {
+  max-width:1000px !important;
+}
+
+.clear {
+  clear:both;
+  content:"";
+  display:block;
+}
+
+.col {
+  float:left;
+  width:50%;
+}
+
+
+/*---------------------------------------------
+  recipe styles
+---------------------------------------------*/
+tbody tr {
+  border:none;
+}
+tbody th, tbody td {
+  border-bottom:1px solid #eee;
+}
+tbody td:empty {
+  border:none;
+  padding:0;
+}
+
+
+/*---------------------------------------------
+  footer
+---------------------------------------------*/
+.site-footer .wrap {
+  padding-bottom:0;
+  padding-top:0;
+}
+.site-footer .widget-area {
+  padding-bottom:0;
+}
+.site-footer .right {
+  margin-top:-20px;
+  text-align:right;
+}
+
+
+/*---------------------------------------------
+  search form
+---------------------------------------------*/
+.search-form {
+  float:right;
+  width:63%;
+}
+.search-form input {
+  padding:7px 10px;
+}
+.search-form .search-submit {
+  padding:5px 10px;
+  top:10px;
+}
+.search-form .search-submit .icon {
+  height:18px;
+  width:18px;
+}
