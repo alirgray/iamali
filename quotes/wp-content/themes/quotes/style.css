@@ -63,19 +63,24 @@ blockquote cite em:not(:empty)::before {
 	margin:0;
 	padding-left:10px;
 }
-.rating.one::before {
+.rating.one::before,
+.rating.onestar::before {
 	content:"*";
 }
-.rating.two::before {
+.rating.two::before,
+.rating.twostar::before {
 	content:"* *";
 }
-.rating.three::before {
+.rating.three::before,
+.rating.threestar::before {
 	content:"* * *";
 }
-.rating.four::before {
+.rating.four::before,
+.rating.fourstar::before {
 	content:"* * * *";
 }
-.rating.five::before {
+.rating.five::before,
+.rating.fivestar::before {
 	content:"* * * * *";
 }
 
@@ -101,6 +106,15 @@ ul.post-categories li a:hover {
 
 .page-title span {
 	display:block;
+}
+
+.post-edit-link {
+	display:block;
+	font-size:12px;
+	font-style:italic;
+  font-weight:lighter;
+  margin-top:-10px;
+	text-align:right;
 }
 
 
@@ -141,6 +155,12 @@ footer {
 .site-footer .right {
   margin-top:-20px;
   text-align:right;
+}
+
+.footer-widget-1 p {
+	color:#888;
+	font-size:13px;
+	padding-top:5px;
 }
 
 
